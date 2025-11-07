@@ -1,7 +1,9 @@
-.next
 node_modules
 .git
 .DS_Store
 dist
 tmp
 *.log
+# Allow build artifacts but exclude heavy cache/server directories
+.next/cache
+.next/server

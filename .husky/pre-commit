@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+set -e
+
+echo "[husky] 生产构建开始..."
+export NEXT_TELEMETRY_DISABLED=1
+export NODE_ENV=production
+
+# 使用 Bun 执行 Next.js 生产构建
+bun run build
+
+echo "[husky] 构建完成，允许提交。"
