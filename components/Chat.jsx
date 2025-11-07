@@ -1,42 +1,15 @@
 'use client';
 
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import ImageUpload from './ImageUpload';
 import LoadingOverlay from './LoadingOverlay';
 import { generateImagePrompt } from '@/lib/image-utils';
+import { CHART_TYPES } from '@/lib/constants';
 
-// Chart type options
-// Must match CHART_TYPE_NAMES in lib/prompts.js
-const CHART_TYPES = {
-  auto: '自动',
-  flowchart: '流程图',
-  mindmap: '思维导图',
-  orgchart: '组织架构图',
-  sequence: '时序图',
-  class: 'UML类图',
-  er: 'ER图',
-  gantt: '甘特图',
-  timeline: '时间线',
-  tree: '树形图',
-  network: '网络拓扑图',
-  architecture: '架构图',
-  dataflow: '数据流图',
-  state: '状态图',
-  swimlane: '泳道图',
-  concept: '概念图',
-  fishbone: '鱼骨图',
-  swot: 'SWOT分析图',
-  pyramid: '金字塔图',
-  funnel: '漏斗图',
-  venn: '韦恩图',
-  matrix: '矩阵图',
-  infographic: '信息图'
-};
-
-export default function Chat({ onSendMessage, isGenerating }) {
+export default function Chat({ onSendMessage, isGenerating, initialInput = '', initialChartType = 'auto' }) {
   const [activeTab, setActiveTab] = useState('text'); // 'text', 'file', or 'image'
-  const [input, setInput] = useState('');
-  const [chartType, setChartType] = useState('auto'); // Selected chart type
+  const [input, setInput] = useState(initialInput);
+  const [chartType, setChartType] = useState(initialChartType); // Selected chart type
   const [selectedFile, setSelectedFile] = useState(null);
   const [fileStatus, setFileStatus] = useState(''); // '', 'parsing', 'success', 'error'
   const [fileError, setFileError] = useState('');
@@ -46,7 +19,15 @@ export default function Chat({ onSendMessage, isGenerating }) {
   const textareaRef = useRef(null);
   const fileInputRef = useRef(null);
 
-  
+  // Sync with parent state changes
+  useEffect(() => {
+    setInput(initialInput);
+  }, [initialInput]);
+
+  useEffect(() => {
+    setChartType(initialChartType);
+  }, [initialChartType]);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (input.trim() && !isGenerating) {
