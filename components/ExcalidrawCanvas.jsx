@@ -1,18 +1,21 @@
-'use client';
+"use client";
 
-import dynamic from 'next/dynamic';
-import { useState, useEffect, useMemo } from 'react';
-import '@excalidraw/excalidraw/index.css';
+import dynamic from "next/dynamic";
+import { useState, useEffect, useMemo } from "react";
+import "@excalidraw/excalidraw/index.css";
+import { MainMenu } from '@excalidraw/excalidraw'
 
 // Dynamically import Excalidraw with no SSR
 const Excalidraw = dynamic(
-  async () => (await import('@excalidraw/excalidraw')).Excalidraw,
+  async () => (await import("@excalidraw/excalidraw")).Excalidraw,
   { ssr: false }
 );
 
+
+
 // Dynamically import convertToExcalidrawElements
 const getConvertFunction = async () => {
-  const excalidrawModule = await import('@excalidraw/excalidraw');
+  const excalidrawModule = await import("@excalidraw/excalidraw");
   return excalidrawModule.convertToExcalidrawElements;
 };
 
@@ -22,7 +25,7 @@ export default function ExcalidrawCanvas({ elements }) {
 
   // Load convert function on mount
   useEffect(() => {
-    getConvertFunction().then(fn => {
+    getConvertFunction().then((fn) => {
       setConvertFunction(() => fn);
     });
   }, []);
@@ -36,7 +39,7 @@ export default function ExcalidrawCanvas({ elements }) {
     try {
       return convertToExcalidrawElements(elements);
     } catch (error) {
-      console.error('Failed to convert elements:', error);
+      console.error("Failed to convert elements:", error);
       return [];
     }
   }, [elements, convertToExcalidrawElements]);
@@ -57,9 +60,9 @@ export default function ExcalidrawCanvas({ elements }) {
 
   // Generate unique key when elements change to force remount
   const canvasKey = useMemo(() => {
-    if (convertedElements.length === 0) return 'empty';
+    if (convertedElements.length === 0) return "empty";
     // Create a hash from elements to detect changes
-    return JSON.stringify(convertedElements.map(el => el.id)).slice(0, 50);
+    return JSON.stringify(convertedElements.map((el) => el.id)).slice(0, 50);
   }, [convertedElements]);
 
   return (
@@ -68,16 +71,22 @@ export default function ExcalidrawCanvas({ elements }) {
         key={canvasKey}
         excalidrawAPI={(api) => setExcalidrawAPI(api)}
         langCode="zh-CN"
+        disableExcalidrawLinks={true}
         initialData={{
           elements: convertedElements,
           appState: {
-            viewBackgroundColor: '#ffffff',
+            viewBackgroundColor: "#ffffff",
             currentItemFontFamily: 1,
           },
           scrollToContent: true,
         }}
-      />
+      >
+        <MainMenu>
+          <MainMenu.DefaultItems.Export />
+          <MainMenu.DefaultItems.SaveAsImage />
+          <MainMenu.DefaultItems.ChangeCanvasBackground />
+        </MainMenu>
+      </Excalidraw>
     </div>
   );
 }
-
