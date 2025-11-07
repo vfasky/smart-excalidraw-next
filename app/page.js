@@ -364,10 +364,10 @@ export default function Home() {
   return (
     <div className="flex flex-col h-screen bg-gray-50">
       {/* Header */}
-      <header className="flex items-center justify-between px-6 py-4 bg-white border-b border-gray-200">
+      <header className="flex items-center justify-between px-6 h-[50px] bg-white border-b border-gray-200">
         <div>
-          <h1 className="text-lg font-semibold text-gray-900">Smart Excalidraw</h1>
-          <p className="text-xs text-gray-500">AI 驱动的图表生成</p>
+          <h1 className="text-lg leading-tight font-semibold text-gray-900">Smart Excalidraw</h1>
+          <p className="text-xs leading-tight text-gray-500">AI 驱动的图表生成</p>
         </div>
         <div className="flex items-center space-x-3">
           {config && isConfigValid(config) && (
@@ -461,7 +461,7 @@ export default function Home() {
       />
 
       {/* Footer */}
-      <footer className="bg-white border-t border-gray-200 px-6 py-3">
+      {/* <footer className="bg-white border-t border-gray-200 px-6 py-3">
         <div className="flex items-center justify-center space-x-4 text-sm text-gray-600">
           <span>Smart Excalidraw v0.1.0</span>
           <span className="text-gray-400">|</span>
@@ -488,11 +488,8 @@ export default function Home() {
             </svg>
             <span>联系作者</span>
           </button>
-          <button onClick={() => setIsContactModalOpen(true)} >
-          <span className="text-orange-500 font-medium">🎁 进群限时领取免费 claude-4.5-sonnet key</span>
-          </button>
         </div>
-      </footer>
+      </footer> */}
 
       {/* Contact Modal */}
       <ContactModal
