@@ -40,6 +40,12 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/api/auth/validate",
+      "regex": "^/api/auth/validate(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/validate(?:/)?$"
+    },
+    {
       "page": "/api/configs",
       "regex": "^/api/configs(?:/)?$",
       "routeKeys": {},
