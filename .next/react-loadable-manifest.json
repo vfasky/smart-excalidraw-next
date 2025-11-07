@@ -1,0 +1,616 @@
+{
+  "app/page.js -> @/components/ExcalidrawCanvas": {
+    "id": 74699,
+    "files": [
+      "static/css/16affb9dcb74d2c8.css",
+      "static/chunks/2f0b94e8.cc09eb3635973867.js",
+      "static/chunks/02ff8e9f.1cc22c1c88785e1d.js",
+      "static/chunks/2ce6744b.3a270bd5083decf5.js",
+      "static/chunks/4932.34370a49701590f6.js",
+      "static/chunks/4699.7ce4544170d485f2.js"
+    ]
+  },
+  "components/ExcalidrawCanvas.jsx -> @excalidraw/excalidraw": {
+    "id": 29030,
+    "files": []
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/chunk-FX7ZIABN.js -> ./data/image-7KUKJ7J4.js": {
+    "id": 68156,
+    "files": [
+      "static/chunks/8156.084d96f0b2b987f2.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/chunk-FX7ZIABN.js -> ./subset-shared.chunk.js": {
+    "id": 7725,
+    "files": [
+      "static/chunks/120a652c.31efdcd7155a1aa7.js",
+      "static/chunks/7725.c95e06457f0fabc9.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/chunk-FX7ZIABN.js -> ./subset-worker.chunk.js": {
+    "id": 87354,
+    "files": [
+      "static/chunks/120a652c.31efdcd7155a1aa7.js",
+      "static/chunks/7354.c3e657c2ee104caa.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/chunk-FX7ZIABN.js -> image-blob-reduce": {
+    "id": 65305,
+    "files": [
+      "static/chunks/ac446e98.5c70163619e1a15e.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/chunk-FX7ZIABN.js -> pica": {
+    "id": 38371,
+    "files": [
+      "static/chunks/8371.4699c47920bd2b90.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./data/image-7KUKJ7J4.js": {
+    "id": 68156,
+    "files": [
+      "static/chunks/8156.084d96f0b2b987f2.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/ar-SA-G6X2FPQ2.js": {
+    "id": 83445,
+    "files": [
+      "static/chunks/3445.f2161e41c5622ba9.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/az-AZ-76LH7QW2.js": {
+    "id": 73742,
+    "files": [
+      "static/chunks/3742.2f1030a4594a5c07.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/bg-BG-XCXSNQG7.js": {
+    "id": 43685,
+    "files": [
+      "static/chunks/3685.163b6537436fc922.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/bn-BD-2XOGV67Q.js": {
+    "id": 88066,
+    "files": [
+      "static/chunks/8066.fa37abd9315c0a8b.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/ca-ES-6MX7JW3Y.js": {
+    "id": 49623,
+    "files": [
+      "static/chunks/9623.5a5cf7846e0f21f4.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/cs-CZ-2BRQDIVT.js": {
+    "id": 2797,
+    "files": [
+      "static/chunks/2797.d55cf9938eaa9b23.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/da-DK-5WZEPLOC.js": {
+    "id": 11303,
+    "files": [
+      "static/chunks/1303.056d0ad686b403d8.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/de-DE-XR44H4JA.js": {
+    "id": 70313,
+    "files": [
+      "static/chunks/313.6621393f26ec2271.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/el-GR-BZB4AONW.js": {
+    "id": 68311,
+    "files": [
+      "static/chunks/8311.2606e84dac2c2629.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/en-B4ZKOASM.js": {
+    "id": 4449,
+    "files": [
+      "static/chunks/4449.ba0744cd1f8fbd61.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/es-ES-U4NZUMDT.js": {
+    "id": 1227,
+    "files": [
+      "static/chunks/1227.6f8279cea2d34dac.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/eu-ES-A7QVB2H4.js": {
+    "id": 77637,
+    "files": [
+      "static/chunks/7637.959f74c5be2a7bec.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/fa-IR-HGAKTJCU.js": {
+    "id": 71295,
+    "files": [
+      "static/chunks/1295.f35016b3d470f064.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/fi-FI-Z5N7JZ37.js": {
+    "id": 658,
+    "files": [
+      "static/chunks/658.2ba1ef28d9bc342a.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/fr-FR-RHASNOE6.js": {
+    "id": 92310,
+    "files": [
+      "static/chunks/2310.9e8a8c0b8aaaaa18.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/gl-ES-HMX3MZ6V.js": {
+    "id": 48090,
+    "files": [
+      "static/chunks/8090.daead89a8172627b.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/he-IL-6SHJWFNN.js": {
+    "id": 21280,
+    "files": [
+      "static/chunks/1280.762b69215a3d5ff8.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/hi-IN-IWLTKZ5I.js": {
+    "id": 93241,
+    "files": [
+      "static/chunks/3241.fde30754afedc406.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/hu-HU-A5ZG7DT2.js": {
+    "id": 92354,
+    "files": [
+      "static/chunks/2354.e6aaf9f1ebd43fdc.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/id-ID-SAP4L64H.js": {
+    "id": 44064,
+    "files": [
+      "static/chunks/4064.92ed8d7b40cd1bf4.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/it-IT-JPQ66NNP.js": {
+    "id": 17657,
+    "files": [
+      "static/chunks/7657.0bae0e5c40fb360c.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/ja-JP-DBVTYXUO.js": {
+    "id": 48574,
+    "files": [
+      "static/chunks/8574.98de1703fd6b2e34.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/kaa-6HZHGXH3.js": {
+    "id": 56742,
+    "files": [
+      "static/chunks/6742.cf0caea0d63b0597.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/kab-KAB-ZGHBKWFO.js": {
+    "id": 25030,
+    "files": [
+      "static/chunks/5030.fa1b537341b9d865.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/kk-KZ-P5N5QNE5.js": {
+    "id": 95486,
+    "files": [
+      "static/chunks/5486.18c7179cbc8b2ae8.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/km-KH-HSX4SM5Z.js": {
+    "id": 22043,
+    "files": [
+      "static/chunks/2043.27e04193ba8dec72.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/ko-KR-MTYHY66A.js": {
+    "id": 46095,
+    "files": [
+      "static/chunks/6095.acab9a36a48c76bd.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/ku-TR-6OUDTVRD.js": {
+    "id": 8747,
+    "files": [
+      "static/chunks/1128.79444ebdb39242eb.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/lt-LT-XHIRWOB4.js": {
+    "id": 32583,
+    "files": [
+      "static/chunks/2583.eb348b12b8a5467c.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/lv-LV-5QDEKY6T.js": {
+    "id": 82511,
+    "files": [
+      "static/chunks/2511.489561a28abf7de0.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/mr-IN-CRQNXWMA.js": {
+    "id": 74855,
+    "files": [
+      "static/chunks/4855.210596eedd0f78d5.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/my-MM-5M5IBNSE.js": {
+    "id": 34808,
+    "files": [
+      "static/chunks/4808.83cfe10859ca7033.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/nb-NO-T6EIAALU.js": {
+    "id": 10528,
+    "files": [
+      "static/chunks/528.2c799ab014ff3a62.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/nl-NL-IS3SIHDZ.js": {
+    "id": 43501,
+    "files": [
+      "static/chunks/3501.50e7a125aaddb8b9.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/nn-NO-6E72VCQL.js": {
+    "id": 44359,
+    "files": [
+      "static/chunks/4359.a658ddf15049d1f9.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/oc-FR-POXYY2M6.js": {
+    "id": 85484,
+    "files": [
+      "static/chunks/5484.35f6fb13c2647353.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/pa-IN-N4M65BXN.js": {
+    "id": 21798,
+    "files": [
+      "static/chunks/1798.cc4dc980b49f16b1.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/percentages-BXMCSKIN.js": {
+    "id": 53385,
+    "files": [
+      "static/chunks/3385.0cfa6f11e5c08470.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/pl-PL-T2D74RX3.js": {
+    "id": 51152,
+    "files": [
+      "static/chunks/1152.89638ce2bcb596fe.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/pt-BR-5N22H2LF.js": {
+    "id": 14971,
+    "files": [
+      "static/chunks/4971.b9cef137570c391f.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/pt-PT-UZXXM6DQ.js": {
+    "id": 9807,
+    "files": [
+      "static/chunks/9807.264a8bb5f6b0ac23.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/ro-RO-JPDTUUEW.js": {
+    "id": 1182,
+    "files": [
+      "static/chunks/1182.8a3b16186bde0515.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/ru-RU-B4JR7IUQ.js": {
+    "id": 5474,
+    "files": [
+      "static/chunks/5474.5781322f860fe4bb.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/si-LK-N5RQ5JYF.js": {
+    "id": 43731,
+    "files": [
+      "static/chunks/3731.181377fe55563732.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/sk-SK-C5VTKIMK.js": {
+    "id": 23214,
+    "files": [
+      "static/chunks/3214.c407109c3653a432.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/sl-SI-NN7IZMDC.js": {
+    "id": 2695,
+    "files": [
+      "static/chunks/2695.91ae012c02e5948a.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/sv-SE-XGPEYMSR.js": {
+    "id": 19156,
+    "files": [
+      "static/chunks/9156.262c7d575886cae1.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/ta-IN-2NMHFXQM.js": {
+    "id": 40087,
+    "files": [
+      "static/chunks/87.6215e9e36d38a7be.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/th-TH-HPSO5L25.js": {
+    "id": 71570,
+    "files": [
+      "static/chunks/1570.0a8f297337261dd4.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/tr-TR-DEFEU3FU.js": {
+    "id": 81247,
+    "files": [
+      "static/chunks/1247.bcfb5816da69cee8.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/uk-UA-QMV73CPH.js": {
+    "id": 95137,
+    "files": [
+      "static/chunks/5137.0b98fb881d20d865.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/vi-VN-M7AON7JQ.js": {
+    "id": 44231,
+    "files": [
+      "static/chunks/4231.5b2ab045c33c7051.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/zh-CN-LNUGB5OW.js": {
+    "id": 41948,
+    "files": [
+      "static/chunks/1948.39f8dac51bf8c9bc.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/zh-HK-E62DVLB3.js": {
+    "id": 87237,
+    "files": [
+      "static/chunks/7237.53a234bdf4ae120d.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> ./locales/zh-TW-RAJ6MFWO.js": {
+    "id": 92393,
+    "files": [
+      "static/chunks/2393.7deb8186e7fdbb5c.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> @excalidraw/mermaid-to-excalidraw": {
+    "id": 34621,
+    "files": [
+      "static/chunks/b498d07c.e4144b1b46a5d44b.js",
+      "static/chunks/7521.beae88d1ea02aa52.js"
+    ]
+  },
+  "node_modules/@excalidraw/excalidraw/dist/prod/index.js -> canvas-roundrect-polyfill": {
+    "id": 34707,
+    "files": [
+      "static/chunks/4707.f408608ed832851d.js"
+    ]
+  },
+  "node_modules/browser-fs-access/dist/index.mjs -> ./directory-open-01563666.js": {
+    "id": 74858,
+    "files": [
+      "static/chunks/4858.6163bb40c6066bcd.js"
+    ]
+  },
+  "node_modules/browser-fs-access/dist/index.mjs -> ./directory-open-4ed118d0.js": {
+    "id": 68850,
+    "files": [
+      "static/chunks/8850.1063f50f8353c519.js"
+    ]
+  },
+  "node_modules/browser-fs-access/dist/index.mjs -> ./file-open-002ab408.js": {
+    "id": 65737,
+    "files": [
+      "static/chunks/5737.9ffea7d8efd14614.js"
+    ]
+  },
+  "node_modules/browser-fs-access/dist/index.mjs -> ./file-open-7c801643.js": {
+    "id": 89342,
+    "files": [
+      "static/chunks/9342.39fed484bc07fd99.js"
+    ]
+  },
+  "node_modules/browser-fs-access/dist/index.mjs -> ./file-save-3189631c.js": {
+    "id": 15485,
+    "files": [
+      "static/chunks/5485.997f152615476366.js"
+    ]
+  },
+  "node_modules/browser-fs-access/dist/index.mjs -> ./file-save-745eba88.js": {
+    "id": 50597,
+    "files": [
+      "static/chunks/597.015e915b38c16025.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./blockDiagram-38ab4fdb.js": {
+    "id": 77433,
+    "files": [
+      "static/chunks/288.79b0be52da8c1a1f.js",
+      "static/chunks/9710.e8a7425740bc1ba1.js",
+      "static/chunks/8912.8094bd6424fbd04c.js",
+      "static/chunks/7433.f445694794e4fd52.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./c4Diagram-3d4e48cf.js": {
+    "id": 46134,
+    "files": [
+      "static/chunks/6134.3a7f16d01f6e188e.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./classDiagram-70f12bd4.js": {
+    "id": 63134,
+    "files": [
+      "static/chunks/288.79b0be52da8c1a1f.js",
+      "static/chunks/2617.5ac79f056bbc621e.js",
+      "static/chunks/4995.a3731176e34dfda8.js",
+      "static/chunks/3134.d68105fe7389ffd6.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./classDiagram-v2-f2320105.js": {
+    "id": 22802,
+    "files": [
+      "static/chunks/288.79b0be52da8c1a1f.js",
+      "static/chunks/9710.e8a7425740bc1ba1.js",
+      "static/chunks/2617.5ac79f056bbc621e.js",
+      "static/chunks/8912.8094bd6424fbd04c.js",
+      "static/chunks/917.bbe3b922bb12f017.js",
+      "static/chunks/4995.a3731176e34dfda8.js",
+      "static/chunks/2802.d3498d4adad7ea1f.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./erDiagram-9861fffd.js": {
+    "id": 61043,
+    "files": [
+      "static/chunks/288.79b0be52da8c1a1f.js",
+      "static/chunks/2617.5ac79f056bbc621e.js",
+      "static/chunks/1043.56abe57f62f438b5.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./flowDiagram-66a62f08.js": {
+    "id": 2306,
+    "files": [
+      "static/chunks/288.79b0be52da8c1a1f.js",
+      "static/chunks/9710.e8a7425740bc1ba1.js",
+      "static/chunks/2617.5ac79f056bbc621e.js",
+      "static/chunks/8912.8094bd6424fbd04c.js",
+      "static/chunks/917.bbe3b922bb12f017.js",
+      "static/chunks/272.e6599d90cbd94a59.js",
+      "static/chunks/2306.2f17ac516cccd309.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./flowDiagram-v2-96b9c2cf.js": {
+    "id": 54181,
+    "files": [
+      "static/chunks/288.79b0be52da8c1a1f.js",
+      "static/chunks/9710.e8a7425740bc1ba1.js",
+      "static/chunks/2617.5ac79f056bbc621e.js",
+      "static/chunks/8912.8094bd6424fbd04c.js",
+      "static/chunks/917.bbe3b922bb12f017.js",
+      "static/chunks/272.e6599d90cbd94a59.js",
+      "static/chunks/4181.220868bd24b5567a.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./flowchart-elk-definition-4a651766.js": {
+    "id": 94576,
+    "files": [
+      "static/chunks/91dbc596.f996688fe21c69e5.js",
+      "static/chunks/9710.e8a7425740bc1ba1.js",
+      "static/chunks/8912.8094bd6424fbd04c.js",
+      "static/chunks/272.e6599d90cbd94a59.js",
+      "static/chunks/4576.833f6a6952dc062e.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./ganttDiagram-c361ad54.js": {
+    "id": 34341,
+    "files": [
+      "static/chunks/4341.b873bc0fa926341b.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./gitGraphDiagram-72cf32ee.js": {
+    "id": 89343,
+    "files": [
+      "static/chunks/9343.9a8b67a2d54481f4.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./infoDiagram-f8f76790.js": {
+    "id": 92247,
+    "files": [
+      "static/chunks/2247.1ec18614dd16f5c8.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./journeyDiagram-49397b02.js": {
+    "id": 54848,
+    "files": [
+      "static/chunks/4848.843f8e73f3266d2a.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./mindmap-definition-fc14e90a.js": {
+    "id": 53292,
+    "files": [
+      "static/chunks/90542734.d84bb73ebd95167a.js",
+      "static/chunks/9710.e8a7425740bc1ba1.js",
+      "static/chunks/3292.bd7061d131ef1cfb.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./pieDiagram-8a3498a8.js": {
+    "id": 14286,
+    "files": [
+      "static/chunks/4286.b399a17de958880d.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./quadrantDiagram-120e2f19.js": {
+    "id": 15522,
+    "files": [
+      "static/chunks/5522.5b293c9f37a8e42f.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./requirementDiagram-deff3bca.js": {
+    "id": 67933,
+    "files": [
+      "static/chunks/288.79b0be52da8c1a1f.js",
+      "static/chunks/2617.5ac79f056bbc621e.js",
+      "static/chunks/7933.cbca404a742ee554.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./sankeyDiagram-04a897e0.js": {
+    "id": 88328,
+    "files": [
+      "static/chunks/8328.0419bcc3ec1883d0.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./sequenceDiagram-704730f1.js": {
+    "id": 89809,
+    "files": [
+      "static/chunks/9809.e03021cc985986a5.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./stateDiagram-587899a1.js": {
+    "id": 18643,
+    "files": [
+      "static/chunks/288.79b0be52da8c1a1f.js",
+      "static/chunks/2617.5ac79f056bbc621e.js",
+      "static/chunks/7451.c6cbf4b2a3af8213.js",
+      "static/chunks/8643.f8a7a3e110b2c078.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./stateDiagram-v2-d93cdb3a.js": {
+    "id": 88095,
+    "files": [
+      "static/chunks/288.79b0be52da8c1a1f.js",
+      "static/chunks/9710.e8a7425740bc1ba1.js",
+      "static/chunks/2617.5ac79f056bbc621e.js",
+      "static/chunks/8912.8094bd6424fbd04c.js",
+      "static/chunks/917.bbe3b922bb12f017.js",
+      "static/chunks/7451.c6cbf4b2a3af8213.js",
+      "static/chunks/8095.b5c204917e3dc333.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./timeline-definition-85554ec2.js": {
+    "id": 71497,
+    "files": [
+      "static/chunks/1497.7fd5c711786490e5.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> ./xychartDiagram-e933f94c.js": {
+    "id": 66269,
+    "files": [
+      "static/chunks/9710.e8a7425740bc1ba1.js",
+      "static/chunks/6269.d5b62ec6f2528ed3.js"
+    ]
+  },
+  "node_modules/mermaid/dist/mermaid-b5860b54.js -> katex": {
+    "id": 71876,
+    "files": [
+      "static/chunks/d3ac728e.4adcffb4bdf27b27.js"
+    ]
+  }
+}

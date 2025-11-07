@@ -7,3 +7,4 @@ tmp
 # Allow build artifacts but exclude heavy cache/server directories
 .next/cache
 .next/server
+.next/dev
